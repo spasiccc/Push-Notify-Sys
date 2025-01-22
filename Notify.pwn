@@ -36,20 +36,20 @@ stock NotifyShow(playerid, color, const text[], showtime = 0, va_args<>)
     {
         p_NotifyTD[playerid][0] = CreatePlayerTextDraw(playerid, -80.8989, 124.044425, "!");
         PlayerTextDrawLetterSize(playerid, p_NotifyTD[playerid][0], 0.470958, 2.374411);
-        PlayerTextDrawAlignment(playerid, p_NotifyTD[playerid][0], TEXT_DRAW_ALIGN_LEFT);
-        PlayerTextDrawColour(playerid, p_NotifyTD[playerid][0], -5963521);
+        PlayerTextDrawAlignment(playerid, p_NotifyTD[playerid][0], 1);
+        PlayerTextDrawColor(playerid, p_NotifyTD[playerid][0], -5963521);
         PlayerTextDrawSetShadow(playerid, p_NotifyTD[playerid][0], 0);
-        PlayerTextDrawBackgroundColour(playerid, p_NotifyTD[playerid][0], 255);
-        PlayerTextDrawFont(playerid, p_NotifyTD[playerid][0], TEXT_DRAW_FONT_0);
+        PlayerTextDrawBackgroundColor(playerid, p_NotifyTD[playerid][0], 255);
+        PlayerTextDrawFont(playerid, p_NotifyTD[playerid][0], 0);
         PlayerTextDrawSetProportional(playerid, p_NotifyTD[playerid][0], true);
 
         p_NotifyTD[playerid][1] = CreatePlayerTextDraw(playerid, -70.498894, 126.118537, "KOMANDA_KOJU_STE_UNIJELI NE_POSTOJI");
         PlayerTextDrawLetterSize(playerid, p_NotifyTD[playerid][1], 0.146248, 0.870832);
-        PlayerTextDrawAlignment(playerid, p_NotifyTD[playerid][1], TEXT_DRAW_ALIGN_LEFT);
-        PlayerTextDrawColour(playerid, p_NotifyTD[playerid][1], -1);
+        PlayerTextDrawAlignment(playerid, p_NotifyTD[playerid][1], 1);
+        PlayerTextDrawColor(playerid, p_NotifyTD[playerid][1], -1);
         PlayerTextDrawSetShadow(playerid, p_NotifyTD[playerid][1], false);
-        PlayerTextDrawBackgroundColour(playerid, p_NotifyTD[playerid][1], 255);
-        PlayerTextDrawFont(playerid, p_NotifyTD[playerid][1], TEXT_DRAW_FONT_2);
+        PlayerTextDrawBackgroundColor(playerid, p_NotifyTD[playerid][1], 255);
+        PlayerTextDrawFont(playerid, p_NotifyTD[playerid][1], 2);
         PlayerTextDrawSetProportional(playerid, p_NotifyTD[playerid][1], true);
     }
 
