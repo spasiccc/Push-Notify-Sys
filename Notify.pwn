@@ -1,7 +1,7 @@
 	
 	@ Script Name: Push Notify
 	@ Author: Spasic Jovan (Spasic)
-	@ Author Contant: https://www.facebook.com/profile.php?id=100074875885781&mibextid=ZbWKwL
+	@ Author Contat: https://www.facebook.com/profile.php?id=100074875885781&mibextid=ZbWKwL
 
 	@ Request: https://github.com/pawn-lang/YSI-Includes/releases/tag/v5.10.0006
 		   https://github.com/IS4Code/YSF/releases
