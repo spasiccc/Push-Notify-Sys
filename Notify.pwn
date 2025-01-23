@@ -75,7 +75,7 @@ stock NotifyShow(playerid, color, const text[], showtime = 0, va_args<>)
 
     notifyChekingDestroy[playerid] = true;
 
-    PlayerTextDrawColour(playerid, p_NotifyTD[playerid][0], color);
+    PlayerTextDrawColor(playerid, p_NotifyTD[playerid][0], color);
     PlayerTextDrawSetString(playerid, p_NotifyTD[playerid][1], va_return(text, va_start<4>));
 
     notifyCheking[playerid] = true;
